@@ -15,7 +15,7 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="style01.css" />
       
     <link
       rel="stylesheet"
@@ -23,45 +23,51 @@
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
-    <title>title</title>
+    <title>Bootstrap_example01</title>
       
   </head>
     
   <body>
     <!-- Navigation section -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-violet sticky">
-      <a class="navbar-brand" href="#"><strong>YOGO</strong></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto text-right">
-          <li class="nav-item">
-            <a class="nav-link" href="#"><strong>HOME</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><strong>SERVICES</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><strong>PRICING</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><strong>ABOUT US</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><strong>CONTACT US</strong></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <section id="navigation">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-violet sticky">
+        <a class="navbar-brand" href="#"><strong>YOGO</strong></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto text-right">
+            <li class="nav-item">
+              <a class="nav-link" href="#top-row"><strong>HOME</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#second-row"
+                ><strong>SERVICES</strong></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#third-row"><strong>PRICING</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#fourth-row"
+                ><strong>ABOUT US</strong></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer"><strong>CONTACT US</strong></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
     <!-- 2-column section -->
     <section id="top-row">
       <div class="container">
@@ -234,6 +240,10 @@
     </section>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="smooth-scroll.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
         
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -255,3 +265,4 @@
       
   </body>
 </html>
+
