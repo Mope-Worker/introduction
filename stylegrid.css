@@ -99,7 +99,9 @@ section h1 {
   margin-right: 10px;
   margin-bottom: 10px;
 }
-
+.content img {
+  margin-left: 40px;
+}
 .content p {
   text-align: center;
 }
