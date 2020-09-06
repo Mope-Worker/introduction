@@ -2,6 +2,14 @@ body {
   font-family: sans-serif;
   background-color: blueviolet;
 }
+#navigation {
+  position: fixed; /* ヘッダーの固定 */
+  top: 0px; /* 位置(上0px) */
+  left: 0px; /* 位置(右0px) */
+  width: 100%; /* 横幅100%　*/
+  height: 140px; /* 縦幅140px */
+  z-index: 10;
+}
 nav {
   background-color: blueviolet !important;
   color: white !important;
